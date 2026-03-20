@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="create_account.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> SpotsPH - Create Account</title>
+</head>
+<body>
+    <div class="bg"></div>
+    <div class="bg bg2"></div>
+    <div class="bg bg3"></div>
+
+    
+    <div class="create-account-container">
+        <fieldset>
+        <legend><h2>CREATE ACCOUNT</h2></legend>
+        <label class="fname" for="firstname">FIRST NAME:</label><br>
+        <input class="Fname" type="text" placeholder="First Name"><br>
+        <label class="lname" for="lastname">LAST NAME:</label><br>
+        <input class="Lname" type="text" placeholder="Last Name"><br>
+        <label class="mname" for="middleInitial">MIDDLE INITIAL:</label>
+        <input class="Mname" type="text" placeholder="Middle Initial"><br>
+        <label class="password-label" for="password">PASSWORD:</label><br>
+        <input class="password" type="password" placeholder="Password">
+        <hr>
+        <button class="create-button" type="button" onclick="goingToWeb()">CREATE</button>
+        </fieldset>
+    </div>
+</body>
+<script>
+    function goingToWeb() {
+        return location.href = "the_website_index.html"
+    }
+</script>
+</html>
