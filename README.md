@@ -1,2 +1,2 @@
 # Spots-PH---best-tourist-spots-website
-- Display the best spots and activity in the Philippines.
+https://redluzon.github.io/Spots-PH---best-tourist-spots-website/the_website_index.html
